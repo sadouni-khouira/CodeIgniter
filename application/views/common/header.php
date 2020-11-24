@@ -21,7 +21,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![ endif ] -->
   </head>
-  <body>
+  <body> 
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -60,7 +60,7 @@
         
 				<?php if ($this->auth_user->is_connected) : ?>
 					<p class="navbar-text navbar-right">|</p>
-					<p class="navbar-text navbar-right">Bienvenue !<strong><?= $this->auth_user->username; ?></strong></p>
+					<p class="navbar-text navbar-right">Bienvenue <strong><?= $this->auth_user->username; ?></strong></p>
         <?php endif; ?>
         
 			</div>
